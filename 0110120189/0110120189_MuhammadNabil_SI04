@@ -1,0 +1,55 @@
+<html>
+  <head>LEARN</head>
+    <body style="background-color:black;">
+        <h1 style="color:gold;font-size:250%;text-align:center;">
+          <i> Curriculum Vitae </i>
+        </h1>
+        <hr>
+        <h2 style="color:white;font-size:150%;text-align:center;">
+          <b>Biodata Pribadi</b>
+        </h2>
+
+        <pre style="color:white;font-size:100%;">
+          Nama  : Muhammad Nabil
+
+          TTL   : Jakarta, 21 Maret 2002
+
+          Jenis Kelamin : Laki - Laki
+
+          Agama : Islam
+
+          Tinggi Badan : 170cm
+
+          Berat Badan : 50 kg
+
+          Alamat  : Jl Raden Sanim, Perum D'Living Ruko No.02
+
+          No.Hp   : 085939217297
+
+          Email   : muhnabil2121@gmail.com
+
+          Github  : <a href="https://github.com/muhnbl">muhnbl</a>
+        </pre>
+        <hr>
+        <h3 style="color:white;font-size:150%;text-align:center;">
+          <b>Data Pendidikan</b>
+        </h3>
+              <table border="1"align="center">
+                  <th style="color:white;font-size:100%;">
+                    Pendidikan
+                  </th>
+                  <th style="color:white;font-size:100%;">
+                    Periode
+                  </th>
+                  <tr>
+                      <td style="color:white;font-size:100%;">SMPIT Nururrahman</td><td style="color:white;font-size:100%;">2014-2017</td>
+                  </tr>
+                  </tr>
+                      <td style="color:white;font-size:100%;">SMK NASIONAL</td><td style="color:white;font-size:100%;">2017-2020</td>
+                  </tr>
+                  <tr>
+                      <td style="color:white;font-size:100%;">Sekolah Tinggi Terpadu Nurul Fikri</td><td style="color:white;font-size:100%;">2020</td>
+                  </tr>
+              </table>
+    </body>
+  </html>
