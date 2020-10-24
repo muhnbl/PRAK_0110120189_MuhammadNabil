@@ -1,0 +1,97 @@
+<html>
+
+<head>
+  <title>Registrasi</title>
+</head>
+
+<body style="background-color:black;">
+
+  <h1 style="color:white;font-size:45;text-align:center;">
+    REGISTRASI
+  </h1>
+
+  <hr>
+
+  <p style="color:white;font-size:15;text-align:center;">
+    " Isi Formulir dengan benar dan sesuaikan data diri Anda dengan baik."
+  </p>
+
+  <hr>
+
+  <form style="color:#f1c40f;">
+    <fieldset style="background-color:#17202a;color:#1c2833;width:600;">
+      <legend style="color:white;font-size:20;">
+        DATA PENGIRIM
+      </legend>
+
+      <label for="nama"style="color:white;font-size:18;margin:94">Nama Pengirim</label>
+      <input type="text" id="nama" name="nama"><br>
+
+      <label for="date"style="color:white;font-size:18;margin:100">Tanggal Lahir</label>
+      <input type="text" id="date" name="date"><br>
+
+      <label for="email"style="color:white;font-size:18;margin:126">E-mail</label>
+      <input type="text" id="phone" name="phone"><br>
+
+      <label for="phone"style="color:white;font-size:18;margin:96">No Handphone</label>
+      <input type="text" id="phone" name="phone"><br>
+
+      <label for="gender"style="color:white;font-size:18;margin:100">Jenis Kelamin</label>
+
+      <input type="radio" id="boy" name="gender" value="boy">
+      <label for="boy" style="color:white;font-size:18" >Laki-Laki</label>
+
+      <input type="radio" id="girl" name="gender" value="girl">
+      <label for="girl" style="color:white;font-size:18">Perempuan</label><br>
+
+  </form><br style="margin:50;">
+
+  <form  id="penerima" style="color:#f1c40f;" action="submit.html">
+    <fieldset style="background-color:#17202a;color:#1c2833;width:600;">
+      <legend style="color:white;font-size:20;">
+        FORMULIR PENGIRIMAN
+      </legend>
+
+      <label for="nama"style="color:white;font-size:18;margin:94">Nama Penerima</label>
+      <input type="text" id="nama" name="nama"><br>
+
+      <label for="phone"style="color:white;font-size:18;margin:97">No Handphone</label>
+      <input type="text" id="phone" name="phone"><br>
+
+      <label for="address"style="color:white;font-size:18;margin:89">Alamat Penerima</label>
+      <input type="text" id="address" name="address"><br>
+
+      <br style="margin:0">
+
+      <label for="penerima" style="color:white;margin:216;">
+      <textarea name="fulladdress" id="penerima" form="penerima" style="font-size:18; ">Detail alamat. . .</textarea>
+
+      <br style="margin:20">
+
+
+      <label for="destination" style="color:white;font-size:18;margin:124">Tujuan:</label>
+
+      <select name="destination" id="destination" required >
+        <option value=""></option>
+        <option value="Bogor">Jakarta - Bogor</option>
+        <option value="Depok">Jakarta - Depok</option>
+        <option value="Tanggerang">Jakarta - Tanggerang</option>
+        <option value="Bekasi">Jakarta - Bekasi</option>
+      </select>
+
+      <form style="color:#f1c40f;font-size:15;" action="submit.html">
+        <div style="text-align:center;margin:10;">
+          <input type="submit" value="Daftar">
+        </div>
+
+  </form>
+
+
+
+
+
+
+
+
+
+</html>
